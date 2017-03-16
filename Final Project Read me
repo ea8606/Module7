@@ -1,0 +1,11 @@
+Usage - 1. Run on command line hw10.py 'BPM_Automation_Roadmap2 _1612_16Nov.xlsx' 'MasterScriptTests.txt'
+           2. Ensure that the file MasterScriptTests.txt is in the current directory
+           3. Ensure hw10.py is in the current directory
+           4. Ensure file_operations.py is in the current directory
+           5. Ensure that the excel file 'BPM_Automation_Roadmap2 _1612_16Nov.xlsx'
+              is in the current directory.
+           6. The ouput file will be 'BPM_Automation_Roadmap2.xlsx' in the current directory
+           7. The script populates column R of the Async sheet of the excel sheet with x's if the test names in
+            'MasterScriptTests.txt' are in 'BPM_Automation_Roadmap2 _1612_16Nov.xlsx'
+           8. The 'InMasterScriptFolderNotInRoadMa' sheet is populated with tests that are in the 'MasterScriptTests.txt'
+              but not in the Async sheet
